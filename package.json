@@ -1,0 +1,14 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "ICTAK MERN Stack Project - Task and Milestone Management System",
+  "author": "Athulya",
+  "license": "MIT",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev"
+  }
+}
